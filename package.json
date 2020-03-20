@@ -1,0 +1,19 @@
+{
+  "name": "perf-tests-sdk-vs-axios-kontent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "delivery": "node delivery.js",
+    "axios": "node axios.js",
+    "start": "yarn delivery && yarn axios"
+  },
+  "dependencies": {
+    "@kentico/kontent-delivery": "^9.0.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "retry-axios": "^2.1.2",
+    "rxjs": "^6.5.4"
+  }
+}
